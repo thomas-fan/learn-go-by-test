@@ -7,9 +7,9 @@ const prefix = "hello, "
 // Hello echo hello, world
 func Hello(name string) string {
 	if name == "" {
-		return prefix + "world"
+		name = "world"
 	}
-	
+
 	return prefix + name
 }
 
